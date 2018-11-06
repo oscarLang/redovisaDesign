@@ -14,3 +14,8 @@ Mitt namn är Oscar Lang och jag är född och uppvuxen i Västervik, Småland. 
 På fritiden gillar jag att umgås med vänner och hänger ganska mycket på kåren. Gillar även att spela och spelar då oftast Counter-Strike: Global offensive eller PUBG. Min favoritserie genom tiderna får jag nog säga är den amerikanska versionen av The office.
 
 Vi syns på lektionerna, chatten eller kanske forumet?
+
+<div class="author-byline">
+[FIGURE src="image/me_byline.jpg?w=100" class="left"]
+Oscar Lang är en student som studerar Webbprogrammering på Blekinge tekniska högskola.
+</div>
