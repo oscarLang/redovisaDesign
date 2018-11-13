@@ -1,3 +1,2 @@
-#### Valideringsverktyg
-
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+#### Om sidan
+Den här sidan är skapad av mig Oscar Lang, som en del av kursen Teknisk webbdesign och användbarhet, a.k.a. design.

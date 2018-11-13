@@ -29,6 +29,19 @@ li {
     list-style: none;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .site-logo {
     padding: 1em;
     margin-top: 1em;
@@ -86,12 +99,20 @@ li {
     margin-bottom: 24px;
 }
 
+.footer-column {
+    width: 33%;
+}
+
 .footer-column-1,
 .footer-column-2 {
     padding-left: 2px;
     margin-left: 4px;
     margin-right: 4px;
     border-right: 2px solid grey;
+}
+
+.footer-column-x ul {
+    padding: 0;
 }
 
 .site-footer {
@@ -131,6 +152,13 @@ li {
     width: 30%;
 }
 
+.region-sidebar-right {
+    display: inline;
+    float: left;
+    margin-left: 1em;
+    width: 30%;
+}
+
 .region-main {
     display: inline;
     float: left;
@@ -146,12 +174,13 @@ li {
     display: flex;
 }
 
-.breadcrumb-list > ul > li::after {
-    content: "&#xbb";
+.region-main.has-sidebar-left {
+    display: inline;
+    float: left;
+    width: 65%;
 }
 
-
-.region-main.has-sidebar-left {
+.region-main.has-sidebar-right {
     display: inline;
     float: left;
     width: 65%;
@@ -171,4 +200,8 @@ li {
     text-align: left;
     float: left;
     width: 50%;
+}
+
+.block a {
+    color: blue;
 }
