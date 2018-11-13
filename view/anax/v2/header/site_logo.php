@@ -9,8 +9,8 @@ namespace Anax\View;
 // Show incoming variables and view helper functions
 //echo showEnvironment(get_defined_vars(), get_defined_functions());
 
-
-
-?><span class="site-logo" >
-    <img src="<?= asset($siteLogo) ?>" alt="<?= $siteLogoAlt ?>">
-</span>
+/**
+*?><span class="site-logo" >
+*    <img src="<?= asset($siteLogo) ?>" alt="<?= $siteLogoAlt ?>">
+*</span>
+*/
