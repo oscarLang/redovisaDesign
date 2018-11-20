@@ -255,9 +255,6 @@ img {
 /**
 * flash layout
 */
-.inner-wrap-flash {
-  max-width: 100%;
-}
 /**
  * Footer layout
 */
@@ -404,30 +401,35 @@ a:hover {
   color: #111;
   display: inline;
 }
+.region-main {
+  margin-left: 1em;
+}
+.region-main.has-sidebar-left {
+  float: left;
+  width: 60%;
+}
+.region-main.has-sidebar-right {
+  float: left;
+  width: 60%;
+}
+.region-main.has-sidebar-left.has-sidebar-right {
+  width: 60%;
+  margin-left: 0;
+}
+.region-sidebar-right,
 .region-sidebar-left {
   float: left;
-  margin-right: 1em;
   width: 30%;
 }
-.region-sidebar-right {
+.region-sidebar-right.has-sidebar-left,
+.region-sidebar-left.has-sidebar-right {
   float: left;
-  margin-left: 1em;
-  width: 30%;
-}
-.region-main {
-  float: left;
+  overflow: auto;
+  width: 20%;
 }
 .region-breadcrumb {
   float: left;
   width: 99%;
-}
-.region-main.has-sidebar-left {
-  float: left;
-  width: 65%;
-}
-.region-main.has-sidebar-right {
-  float: left;
-  width: 65%;
 }
 .region-header {
   display: flex;
