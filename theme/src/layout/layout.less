@@ -7,10 +7,10 @@
  * Variables
  */
 
-
 /**
- * General layout
+ * wraps layout
  */
+
 .inner-wrap {
     margin-left: auto;
     margin-right: auto;
@@ -29,6 +29,13 @@
     display: block;
 }
 
+/**
+  * Header layout
+*/
+.inner-wrap-header {
+    max-width: 100%;
+}
+
 .site-logo {
     padding: 1em;
     margin-top: 1em;
@@ -39,17 +46,32 @@
     font-size: 48px;
 }
 
-.figure.left {
-    margin: 0;
-    padding-right: 1em;
+.my-navbar {
+    display: flex;
+    a {
+        color: black;
+        text-decoration: none;
+        font-size: 24px;
+    }
 }
+/**
+* flash layout
+*/
 
-.figure.right {
-    float: right;
-}
 
+
+/**
+ * Footer layout
+*/
 .outer-wrap-footer {
+    background-color: #b0b0b5;
+    margin: 0 auto;
     padding: 1em;
+}
+.site-footer {
+    border-top: 2px solid grey;
+    text-align: center;
+    padding-bottom: 24px;
 }
 
 .footer-column-wrapper {
@@ -71,6 +93,19 @@
 
 .footer-column-x ul {
     padding: 0;
+}
+
+/**
+ * General layout
+ */
+
+.figure.left {
+    margin: 0;
+    padding-right: 1em;
+}
+
+.figure.right {
+    float: right;
 }
 
 .author-byline {
@@ -98,12 +133,6 @@
     text-align: left;
     float: left;
     width: 50%;
-}
-
-.site-footer {
-    border-top: 2px solid grey;
-    text-align: center;
-    padding-bottom: 24px;
 }
 
 .row {
@@ -138,9 +167,10 @@
     display: flex;
 }
 
-.rm-desktop ul {
-    display: none;
-}
+// removes responsive meny
+// .rm-desktop ul {
+//     display: none;
+// }
 
 /* links and list */
 li {
@@ -163,14 +193,7 @@ a:hover {
 }
 
 /* Hide responsive/mobile menu, leave this to kmom02 */
-.rm-navbar-max {
-    display: none;
-}
-
-.region-header {
-    display: flex;
-}
-
-.my-navbar {
-    display: flex;
-}
+// .rm-navbar-max {
+//     display: none;
+// }
+//

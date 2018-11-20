@@ -199,6 +199,9 @@ body {
   background-color: #fff;
   font: 100.01%/1 serif;
 }
+img {
+  max-width: 100%;
+}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
@@ -211,7 +214,7 @@ body {
  * Variables
  */
 /**
- * General layout
+ * wraps layout
  */
 .inner-wrap {
   margin-left: auto;
@@ -227,6 +230,12 @@ body {
 .outer-wrap-main {
   display: block;
 }
+/**
+  * Header layout
+*/
+.inner-wrap-header {
+  max-width: 100%;
+}
 .site-logo {
   padding: 1em;
   margin-top: 1em;
@@ -235,15 +244,32 @@ body {
   padding: 1em;
   font-size: 48px;
 }
-.figure.left {
-  margin: 0;
-  padding-right: 1em;
+.my-navbar {
+  display: flex;
 }
-.figure.right {
-  float: right;
+.my-navbar a {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
 }
+/**
+* flash layout
+*/
+.inner-wrap-flash {
+  max-width: 100%;
+}
+/**
+ * Footer layout
+*/
 .outer-wrap-footer {
+  background-color: #b0b0b5;
+  margin: 0 auto;
   padding: 1em;
+}
+.site-footer {
+  border-top: 2px solid grey;
+  text-align: center;
+  padding-bottom: 24px;
 }
 .footer-column-wrapper {
   display: flex;
@@ -261,6 +287,16 @@ body {
 }
 .footer-column-x ul {
   padding: 0;
+}
+/**
+ * General layout
+ */
+.figure.left {
+  margin: 0;
+  padding-right: 1em;
+}
+.figure.right {
+  float: right;
 }
 .author-byline {
   display: flex;
@@ -284,11 +320,6 @@ body {
   text-align: left;
   float: left;
   width: 50%;
-}
-.site-footer {
-  border-top: 2px solid grey;
-  text-align: center;
-  padding-bottom: 24px;
 }
 .row {
   display: block;
@@ -316,9 +347,6 @@ body {
 .breadcrumb-list ul {
   display: flex;
 }
-.rm-desktop ul {
-  display: none;
-}
 /* links and list */
 li {
   padding: 2px;
@@ -336,15 +364,6 @@ a:hover {
   text-decoration: underline;
 }
 /* Hide responsive/mobile menu, leave this to kmom02 */
-.rm-navbar-max {
-  display: none;
-}
-.region-header {
-  display: flex;
-}
-.my-navbar {
-  display: flex;
-}
 /**
  * Layout for responsive style through media queries.
  */
@@ -409,6 +428,9 @@ a:hover {
 .region-main.has-sidebar-right {
   float: left;
   width: 65%;
+}
+.region-header {
+  display: flex;
 }
 /**
  * My own settings, not currently in their own module.
