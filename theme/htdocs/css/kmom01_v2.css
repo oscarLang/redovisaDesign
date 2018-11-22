@@ -335,6 +335,9 @@ img {
 .block {
   margin-bottom: 48px;
 }
+.block h4 {
+  background-color: #b0b0b5;
+}
 .block a {
   color: blue;
 }
