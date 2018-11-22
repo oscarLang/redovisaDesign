@@ -511,14 +511,6 @@ a:hover {
 }
 /* Hide responsive/mobile menu, leave this to kmom02 */
 /**
- * Layout for responsive style through media queries.
- */
-@media screen and (max-width: 1500px) {
-  .site-logo {
-    display: none;
-  }
-}
-/**
  * Show off the regions used in the website, to ease styling.
  */
 .regions .outer-wrap {
@@ -582,6 +574,23 @@ a:hover {
 }
 .region-header {
   display: flex;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 680px) {
+  .region-sidebar-right,
+  .region-sidebar-left,
+  .region-main {
+    display: inline;
+    width: 60%;
+    margin-left: 20%;
+  }
 }
 /**
  * A responsive menu.
