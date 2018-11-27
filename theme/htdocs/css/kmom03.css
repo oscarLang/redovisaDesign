@@ -432,9 +432,13 @@ img {
 .outer-wrap-footer {
   background-color: #b0b0b5;
 }
-.site-footer p {
+.site-footer {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
   border-top: 2px solid grey;
-  text-align: center;
 }
 .footer-column {
   display: inline;
@@ -552,6 +556,20 @@ a:hover {
   display: inline;
   float: left;
   width: 23.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.region-breadcrumb {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.region-flash {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
