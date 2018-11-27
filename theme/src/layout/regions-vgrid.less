@@ -37,18 +37,15 @@
 
 .region-main {
     //margin-left: 1em;
-    overflow: auto;
+    //overflow: auto;
     #desinax-vgrid.column(18);
-    &.has-sidebar-left {
-        //float: left;
-        //width: 60%;
-    }
+    &.has-sidebar-left,
     &.has-sidebar-right {
-        // float: left;
-        // width: 60%;
+        #desinax-vgrid.column(16);
     }
     &.has-sidebar-left.has-sidebar-right {
         // width: 60%;
+        #desinax-vgrid.column(12);
         // margin-left: 0;
     }
 }
@@ -64,7 +61,7 @@
 .region-sidebar-right.has-sidebar-left,
 .region-sidebar-left.has-sidebar-right {
     //float: left;
-    overflow: auto;
+    //overflow: auto;
     //width: 20%;
 }
 
