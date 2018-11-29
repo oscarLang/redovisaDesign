@@ -336,7 +336,7 @@ html {
   background-color: #424242;
 }
 body {
-  font: 18px/1.33333333 "sans-serif";
+  font: 18px/1.33333333 'Noto Sans', sans-serif;
   margin: 0;
   padding: 0;
   color: #333;
@@ -419,7 +419,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
+  font-family: 'Bitter', serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5242,6 +5242,21 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .fab {
   font-family: 'Font Awesome 5 Brands';
+}
+/**
+ * Google fonts
+ */
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bitter Regular'), local('Bitter-Regular'), url(https://fonts.gstatic.com/s/bitter/v13/rax8HiqOu8IVPmn7f4xs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'), url(https://fonts.gstatic.com/s/notosans/v7/o-0IIpQlx3QUlC5A4PNr5TRF.ttf) format('truetype');
 }
 /**
  * My own settings, not currently in their own module.
