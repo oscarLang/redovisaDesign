@@ -583,13 +583,14 @@ a:hover {
     display: none;
   }
 }
-@media screen and (max-width: 680px) {
-  .region-sidebar-right,
-  .region-sidebar-left,
-  .region-main {
-    display: inline;
-    width: 60%;
-    margin-left: 20%;
+@media screen and (max-width: 1230px) {
+  .my-navbar a {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .my-navbar a {
+    font-size: 16px;
   }
 }
 /**
