@@ -86,3 +86,36 @@
 .region-header-col-2 {
     #desinax-vgrid.column(16);
 }
+
+
+/**
+responsive
+**/
+
+@media screen and (max-width: 850px) {
+    .region-main {
+        &.has-sidebar-left,
+        &.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
+        }
+        .right {
+            float: none;
+        }
+    }
+    .region-sidebar-right,
+    .region-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .breadcrumb-list li {
+        #desinax-vgrid.column(@columns);
+
+    }
+}
+@media screen and (max-width: 900px) {
+    .region-main,
+    .region-sidebar-right.has-sidebar-left,
+    .region-sidebar-left.has-sidebar-right {
+        #desinax-vgrid.column(@columns);
+    }
+}

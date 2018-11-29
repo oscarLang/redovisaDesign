@@ -751,7 +751,7 @@ hr::after {
  * Footer layout
 */
 .outer-wrap-footer {
-  background-color: #b0b0b5;
+  background-color: #ddd;
 }
 .site-footer {
   display: inline;
@@ -771,6 +771,20 @@ hr::after {
 .footer-column-1,
 .footer-column-2 {
   border-right: 2px solid grey;
+}
+@media screen and (max-width: 700px) {
+  .footer-column {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .footer-column-1,
+  .footer-column-2 {
+    border-right: none;
+    border-bottom: 2px solid grey;
+  }
 }
 /**
  * General layout
@@ -936,6 +950,48 @@ a:hover {
   width: 65.625%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+}
+/**
+responsive
+**/
+@media screen and (max-width: 850px) {
+  .region-main.has-sidebar-left,
+  .region-main.has-sidebar-right {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-main .right {
+    float: none;
+  }
+  .region-sidebar-right,
+  .region-sidebar-left {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .breadcrumb-list li {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .region-main,
+  .region-sidebar-right.has-sidebar-left,
+  .region-sidebar-left.has-sidebar-right {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
 }
 /**
  * A responsive menu.
