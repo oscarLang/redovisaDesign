@@ -775,6 +775,9 @@ hr::after {
 /**
  * General layout
  */
+.figure.right {
+  float: right;
+}
 .author-byline {
   display: flex;
   border: 2px solid #ccc;
