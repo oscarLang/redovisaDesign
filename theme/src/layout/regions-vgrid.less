@@ -43,7 +43,8 @@
     &.has-sidebar-right {
         #desinax-vgrid.column(16);
     }
-    &.has-sidebar-left.has-sidebar-right {
+    &.has-sidebar-left.has-sidebar-right,
+    &.has-sidebar-right.has-sidebar-left {
         // width: 60%;
         #desinax-vgrid.column(12);
         // margin-left: 0;
@@ -54,7 +55,7 @@
 .region-sidebar-left {
     //float: left;
     //width: 30%;
-    #desinax-vgrid.column(6);
+    #desinax-vgrid.column(8);
 }
 
 
@@ -62,6 +63,7 @@
 .region-sidebar-left.has-sidebar-right {
     //float: left;
     //overflow: auto;
+    #desinax-vgrid.column(6);
     //width: 20%;
 }
 
@@ -73,10 +75,6 @@
 
 .region-flash {
     #desinax-vgrid.column(@columns);
-}
-
-.region-header {
-    //display: flex;
 }
 
 .region-header-col-1,
