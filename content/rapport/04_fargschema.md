@@ -72,19 +72,15 @@ Analys
 -----------------------
 
 Diskutera och analysera de resultaten du fann.
-Det visade sig att de tre sidorna skiljer sig ganska mycket i hur de valt att designa sina webbplatser. Adlibris har valt i huvudsak två ganska olika färger som skär sig men ändå ger ett intryck av välmående. Den röda färgen på deras logga påminner mycket om julen som många gillar, och den turkosa färgen ger en mjuk känsla.
+Det visade sig att de tre sidorna skiljer sig ganska mycket i hur de valt att designa sina webbplatser. Adlibris har valt i huvudsak två ganska olika färger som skär sig men ändå ger ett intryck av välmående. Den röda färgen på deras logga påminner mycket om julen som många gillar, och den turkosa färgen ger en mjuk känsla. Akademibokhandeln däremot har valt en lite mer stilren och "konservativ" design som är lätt för ögonen och som sätter böckerna i fokus. Bokus har likväl en ganska stilren, om än med lite mer färgglada färger. Den är ganska enkel för ögonen och använder färgerna för att sätta fokus på vart de vill att kunderna ska trycka för ta de till böckerna.
 
-Akademibokhandeln däremot har valt en lite mer stilren och "konservativ" design som är lätt för ögonen och som sätter böckerna i fokus.
-
-Bokus har likväl en ganska stilren, om än med lite mer färgglada färger. Den är ganska enkel för ögonen och använder färgerna för att sätta fokus på vart de vill att kunderna ska trycka för ta de till böckerna.
-
-Intressant är att alla sidor valt att enbart använda typsnitt av typen sans-serif. 
+Det går att se skillnader i storlek på bokstäverna samt mellanrummet på några av rubrikerna men i övrigt så varierar typsnittet på de olika webbplatserna.
 
 Referenser
 -----------------------
 
-Ange de eventuella referenser du använder dig av, om några.
+[Föreläsning kmom04 design med Mikael](https://www.youtube.com/watch?v=fSG9PJ0d84Y)
 
 Övrigt
 -----------------------
-Skriv ditt eget namn samt vilka gruppmedlemmar som deltog i att författa rapporten.
+Skriven av Oscar Lang.
