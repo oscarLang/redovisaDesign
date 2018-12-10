@@ -402,7 +402,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
+  font-family: 'Inconsolata', monospace;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -526,7 +526,7 @@ code,
 kbd,
 samp,
 .code {
-  font-family: "monospace";
+  font-family: "sans-serif";
 }
 code,
 samp {
@@ -5149,7 +5149,7 @@ html {
   background-color: #424242;
 }
 body {
-  font: 18px/1.33333333 serif;
+  font: 18px/1.33333333 'Oswald', sans-serif;
   margin: 0;
   padding: 0;
   color: #E8191E;
@@ -5338,6 +5338,18 @@ a:hover {
 code {
   background-color: #0172B5;
   border: none;
+}
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata Regular'), local('Inconsolata-Regular'), url(https://fonts.gstatic.com/s/inconsolata/v16/QldKNThLqRwH-OJ1UHjlKGlZ5q0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v16/TK3iWkUHHAIjg752GT8D.ttf) format('truetype');
 }
 /**
  * triad color-scheme

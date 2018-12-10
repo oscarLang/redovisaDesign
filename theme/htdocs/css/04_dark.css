@@ -402,7 +402,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
+  font-family: 'Merriweather', serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -526,7 +526,7 @@ code,
 kbd,
 samp,
 .code {
-  font-family: "monospace";
+  font-family: "sans-serif";
 }
 code,
 samp {
@@ -5149,7 +5149,7 @@ html {
   background-color: #424242;
 }
 body {
-  font: 18px/1.33333333 serif;
+  font: 18px/1.33333333 'Nanum Gothic', sans-serif;
   margin: 0;
   padding: 0;
   color: #333;
@@ -5338,4 +5338,16 @@ a:hover {
 code {
   background-color: #404040;
   border: none;
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merriweather Regular'), local('Merriweather-Regular'), url(https://fonts.gstatic.com/s/merriweather/v19/u-440qyriQwlOrhSvowK_l5-fCZJ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('NanumGothic'), url(https://fonts.gstatic.com/s/nanumgothic/v13/PN_3Rfi-oW3hYwmKDpxS7F_D-djb.ttf) format('truetype');
 }
