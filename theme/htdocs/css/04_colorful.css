@@ -5152,26 +5152,26 @@ body {
   font: 18px/1.33333333 serif;
   margin: 0;
   padding: 0;
-  color: #e6e6e6;
-  background-color: #fff;
+  color: #E8191E;
+  background-color: #ECE831;
 }
 p {
-  color: #000;
+  color: #9B0105;
 }
 h1 {
-  color: #000;
-  border-color: #b3b3b3;
+  color: #E8191E;
+  border-color: #a8a40f;
 }
 h2 {
-  color: #000;
-  border-color: #b3b3b3;
+  color: #E8191E;
+  border-color: #a8a40f;
 }
 h3 {
-  color: #000;
-  border-color: #b3b3b3;
+  color: #E8191E;
+  border-color: #a8a40f;
 }
 h4 {
-  border-color: #b3b3b3;
+  border-color: #a8a40f;
 }
 img {
   max-width: 100%;
@@ -5206,7 +5206,7 @@ img {
   max-width: 100%;
 }
 .inner-wrap-main {
-  background-color: #e6e6e6;
+  background-color: #09659B;
 }
 .outer-wrap {
   display: block;
@@ -5219,13 +5219,13 @@ img {
 */
 .site-logo-text a {
   font-size: 48px;
-  color: #000;
+  color: #0172B5;
 }
 .my-navbar li {
-  background-color: #fff;
+  background-color: #ECE831;
 }
 .my-navbar li a {
-  color: #000;
+  color: #0172B5;
   text-decoration: none;
   font-size: 24px;
 }
@@ -5239,7 +5239,7 @@ img {
  * Footer layout
 */
 .outer-wrap-footer {
-  background-color: #e6e6e6;
+  background-color: #0172B5;
 }
 .site-footer {
   display: inline;
@@ -5247,7 +5247,7 @@ img {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  border-top: 2px solid #b3b3b3;
+  border-top: 2px solid #a8a40f;
 }
 .footer-column {
   display: inline;
@@ -5258,7 +5258,7 @@ img {
 }
 .footer-column-1,
 .footer-column-2 {
-  border-right: 2px solid #b3b3b3;
+  border-right: 2px solid #a8a40f;
 }
 @media screen and (max-width: 700px) {
   .footer-column {
@@ -5271,7 +5271,7 @@ img {
   .footer-column-1,
   .footer-column-2 {
     border-right: none;
-    border-bottom: 2px solid #b3b3b3;
+    border-bottom: 2px solid #a8a40f;
   }
 }
 /**
@@ -5282,9 +5282,9 @@ img {
 }
 .author-byline {
   display: flex;
-  border: 2px solid #b3b3b3;
+  border: 2px solid #a8a40f;
   font-size: 18px;
-  color: #0d0d0d;
+  color: #b40106;
 }
 .next {
   text-align: right;
@@ -5312,33 +5312,33 @@ img {
   margin-bottom: 48px;
 }
 .block h4 {
-  color: #000;
+  color: #E8191E;
 }
 .block a {
   color: blue;
 }
 .toc {
   list-style: none;
-  border: 1px solid #b3b3b3;
+  border: 1px solid #a8a40f;
 }
 /* links and list */
 li {
   list-style: none;
 }
 a {
-  color: #ff8533;
+  color: #E8191E;
   text-decoration: none;
 }
 a:visited {
-  color: #ff8533;
+  color: #E8191E;
 }
 a:hover {
   text-decoration: underline;
 }
 code {
-  background-color: #e6e6e6;
+  background-color: #0172B5;
   border: none;
 }
 /**
- * only using three colors
+ * triad color-scheme
  */
