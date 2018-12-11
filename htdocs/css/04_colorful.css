@@ -5207,6 +5207,7 @@ img {
 }
 .inner-wrap-main {
   background-color: #09659B;
+  border-radius: 4px;
 }
 .outer-wrap {
   display: block;
