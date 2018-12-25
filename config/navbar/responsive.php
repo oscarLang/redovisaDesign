@@ -7,7 +7,7 @@ return [
     "id" => "rm-menu",
     "wrapper" => null,
     "class" => "rm-default rm-mobile",
- 
+
     // Here comes the menu items
     "items" => [
         [
@@ -33,6 +33,16 @@ return [
                     ],
                 ],
             ],
+        ],
+        [
+            "text" => "Rapporter",
+            "url" => "rapport",
+            "title" => "Rapporter.",
+        ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Bloggen.",
         ],
         [
             "text" => "Om",
