@@ -776,6 +776,9 @@ hr::after {
 .my-navbar li a:hover {
   color: #000000;
 }
+.rm-desktop li a {
+  color: #000;
+}
 /**
 * flash layout
 */
@@ -1152,7 +1155,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   text-decoration: underline;
 }
 .rm-desktop li a {
-  color: inherit;
+  color: #000;
   background-color: inherit;
 }
 .rm-desktop li a:hover {
