@@ -1,30 +1,33 @@
 ---
-author: mos
+author: Oscar
 category:
-    - utbildning
-    - kursnyheter
-published: "2018-10-03"
+    - hundar
+    - julen2018
+published: "2018-12-27"
 ---
-Mitt första inlägg
+Saga framför granen
 ==================================
-
-Här är mitt allra första blogg inlägg.
-
-Ett blogg-inlägg innehåller en tagg för `<!--more-->` som bestämmer vilken text som visas på förstasidan.
+[FIGURE src="image/blogg/saga.jpg?w=150&crop-to-fit&area=20,15,20,20" class="right"]
+Saga är mina föräldrars nya hund och för första gången så får hon vara med och fira jul med oss.
 
 <!--more-->
 
-Sen handlar det om att skriva sina blogg-inlägg...
+Saga föddes i april 2018 och är en långhårig schäfer.
 
 
 
-Rubrik 2 {#anchor-hit}
+Olika varianter av bilden {#varianter}
 -----------------------------------
+[FIGURE src="image/blogg/saga.jpg?crop-to-fit" caption="Orginalbilden av saga framför julgranen" class="center"]
 
-Text.
+[FIGURE src="image/blogg/saga.jpg?w=350&crop-to-fit&f=grayscale" class="left" caption="grayscale"]
+
+[FIGURE src="image/blogg/saga.jpg?w=350&crop-to-fit&f=grayscale&f1=pixelate,4,1" class="right" caption="grayscale, pixelated"]
+
+Olika former och positioneringar av bilderna på saga.
 
 
 
-### Rubrik 3 {#vad-som}
+### Om bilden {#om}
 
 Text.
