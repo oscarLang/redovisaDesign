@@ -30,4 +30,4 @@ Olika former och positioneringar av bilderna på saga.
 
 ### Om bilden {#om}
 
-Text.
+Bilden är tagen med en Iphone 8. Den har laddats upp på facebook så kvaliteten av bilden är relativt dålig.
